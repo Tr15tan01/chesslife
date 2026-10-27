@@ -1,0 +1,5 @@
+process.env.DATABASE_URL ??= 'memory://test'
+process.env.AUTH_URL ??= 'http://localhost:3000'
+process.env.AI_ENABLED ??= '0'
+process.env.RATE_LIMIT_ENABLED ??= '1'
+process.env.GOOGLE_AUTH_ENABLED ??= '0'
